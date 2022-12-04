@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style> </style>
+        <title></title>
+    </head>
+    <body>
+
+    {% block content %}
+        
+         <h1>IF</h1>
+         {% if student %}
+         <h1>My name is {{student}}</h1> 
+         {% else %}
+         <h1>NO name</h1>
+         {% endif %}
+     {% end block content%}
+
+    </body>
+</html>
