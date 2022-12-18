@@ -15,7 +15,14 @@
          {% else %}
          <h1>NO name</h1>
          {% endif %}
-     {% end block content%}
+         {% end block content%}
 
+     <h1>for tag</h1>
+    
+    {% for i in list1 %}
+    <p>{{i}}</p>
+    {% empty %}
+    <p>no values</p>
+    {% endfor%}
     </body>
 </html>

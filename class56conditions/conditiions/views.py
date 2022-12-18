@@ -8,7 +8,7 @@ def index(request):
     name = {
         "student":"one",
         "count":2,
-
+        "list1":["apple","bannana","pineapple","fruit"]
     }
     return HttpResponse(template.render(name))
 # Create your views here.
